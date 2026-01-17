@@ -9,7 +9,7 @@ div.panels-panel {
   background-color: #333;
   color: aliceblue;
   display: flex;
-  font-family: monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
   box-shadow: 0 0 8px 8px rgba(0, 0, 0, .3);
 }
@@ -18,7 +18,7 @@ div.panels-ctrl {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
+  height: 35px;
   border-bottom: 1px solid #00ffd1;
   padding: 5px;
 
@@ -33,6 +33,7 @@ div.panels-ctrl input {
   color: aliceblue;
   outline: none;
   border: none;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 2px 5px;
+  
+  border-radius: 3px;
 }
