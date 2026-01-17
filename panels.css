@@ -1,6 +1,38 @@
-div.panels {
+div.panels-panel {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   min-width: 250px;
+  height: auto;
+  background-color: #333;
+  color: aliceblue;
+  display: flex;
+  font-family: monospace;
+  font-size: 14px;
+  box-shadow: 0 0 8px 8px rgba(0, 0, 0, .3);
+}
+
+div.panels-ctrl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border-bottom: 1px solid #00ffd1;
+  padding: 5px;
+
+}
+
+div.panels-ctrl span.label {
+  padding: 5px 8px;
+}
+
+div.panels-ctrl input {
+  background-color: #555;
+  color: aliceblue;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
 }
